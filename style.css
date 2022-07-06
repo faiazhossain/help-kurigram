@@ -23,20 +23,21 @@ body {
   background-image: url("images/donation3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 800px;
 }
 .top-container {
   background-color: rgba(0, 0, 0, 0.693);
   width: 100%;
-  height: 600px;
+  height: 800px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .top-container-blog {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 128px;
+  /* padding-top: 128px; */
   width: 60%;
   text-align: center;
   gap: 30px;
@@ -123,9 +124,9 @@ input:focus {
   outline: none;
 }
 ::placeholder {
-  color: rgb(229, 90, 48);
+  color: rgba(229, 90, 48, 0.619);
   font-family: "Oswald", sans-serif;
-  font-size: 14px;
+  font-size: 24px;
   text-shadow: none;
 }
 .dt-link {
@@ -228,6 +229,7 @@ input:focus {
     rgb(251, 223, 197)
   );
   border-radius: 10px;
+  padding: 20px 0;
 }
 .volunteer-info {
   display: flex;
@@ -257,4 +259,68 @@ input:focus {
   padding: 6px 30px;
   color: white;
   border: none;
+}
+
+/* update field */
+#update {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: orange; */
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.update-container {
+  width: 78%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    240deg,
+    rgb(248, 179, 115),
+    rgb(251, 223, 197)
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.update-input {
+  border: none;
+  width: 400px;
+  border-bottom: 2px solid rgb(255, 123, 0);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+
+.update-container-div {
+  display: flex;
+  padding: 20px;
+  margin-top: 15px;
+}
+.update-btn {
+  border: none;
+  width: fit-content;
+  border-bottom: 2px solid rgb(255, 123, 0);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  background-color: rgb(255, 171, 93);
+  text-decoration: none;
+  padding: 20px;
+}
+
+/* last part */
+#last-part {
+  background-color: rgba(255, 106, 0, 0.311);
+  padding: 54px;
+  margin-top: 60px;
+}
+.lp-h1 {
+  text-align: center;
 }
